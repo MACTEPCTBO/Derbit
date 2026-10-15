@@ -34,12 +34,6 @@ API будет доступно по адресу `http://localhost:8000`.
 | GET | `/api/prices/latest?ticker=ETH` | Последняя цена тикера |
 | GET | `/api/prices/filter?ticker=BTC&start=…&end=…` | Цены в диапазоне UNIX timestamp |
 
-## Тесты
-
-```bash
-docker compose exec web pytest
-```
-
 ## Design decisions
 
 ### 1. Слоистая архитектура
